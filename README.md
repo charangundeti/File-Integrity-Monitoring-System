@@ -1,25 +1,80 @@
-# File-Integrity-Monitoring-System
+# 🔐 Advanced File Integrity Monitoring System (FIM)
 
-A Python-based cybersecurity tool that detects unauthorized file changes using hashing techniques.
+## 📌 Overview
+
+This project is an advanced File Integrity Monitoring (FIM) system designed to detect unauthorized file changes in real-time using SHA-256 hashing, with enhanced features like photo evidence capture and automated email alerts.
+
+## 🎯 Objective
+
+* Monitor file changes (create, modify, delete)
+* Capture photo evidence during file activity
+* Send real-time email alerts
+* Improve security with visual verification
 
 ## 🚀 Features
-- Detects file modifications, deletions, and creations
-- Real-time monitoring
-- Logging system with timestamps
-- Alert generation for suspicious activity
+
+* Real-time file monitoring using Watchdog
+* SHA-256 hash-based integrity verification
+* SQLite database for storing file hashes
+* Automated email alerts with attachments
+* Webcam-based photo capture for evidence
+* Lightweight and efficient system design
+
+## 🧠 System Architecture
+
+The system consists of:
+
+* File Monitoring Module (Watchdog)
+* Hashing Module (SHA-256)
+* Database Module (SQLite)
+* Alert Module (Email Notifications)
+* Evidence Module (Webcam Capture)
 
 ## 🛠️ Technologies Used
-- Python
-- Hashlib
-- OS module
 
-## 📂 How to Run
-1. Clone the repository
-2. Run the script:
-   python main.py
+* Python 3
+* Watchdog
+* Hashlib
+* SQLite3
+* OpenCV
+* SMTP (Email)
 
-## 📸 Output Example
-(Add screenshot here)
+## ⚙️ How It Works
+
+1. Monitor a directory using Watchdog
+2. Generate hash values for files
+3. Store hashes in SQLite database
+4. Detect file changes via hash comparison
+5. Capture image using webcam on change
+6. Send email alert with evidence
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## 📷 Key Features from Project
+
+* Real-time monitoring of file changes
+* Photo capture on file modification
+* Email alerts with attachments
+* Low resource usage and easy deployment
+
+## 📌 Use Cases
+
+* Detect unauthorized file access
+* Monitor critical system files
+* Support forensic investigations
+* Improve system accountability
+
+## 🔮 Future Enhancements
+
+* AI-based anomaly detection
+* Cloud integration
+* Web dashboard for monitoring
 
 ## 👨‍💻 Author
+
 Gundeti Venkata Sai Sri Charan
