@@ -59,9 +59,10 @@ def get_stored_hash(file_path):
 
 # Send an email alert with an attachment
 def send_email_alert(subject, body, attachment_path=None):
-    sender_email = "techytricks23@gmail.com"
-    receiver_email = "charangundeti23@gmail.com"
-    password = "rshr jiut fcpq egvm"
+    # ⚠️ Replace with your own email credentials before running
+    sender_email = "your_email@gmail.com"
+    receiver_email = "receiver_email@gmail.com"
+    password = "your_app_password"
 
     message = MIMEMultipart()
     message["From"] = sender_email
