@@ -1,4 +1,10 @@
 # 🔐 Advanced File Integrity Monitoring System (FIM)
+## 🔍 Real-World Relevance
+
+File Integrity Monitoring is used in cybersecurity to detect unauthorized changes in critical system files, which may indicate malware activity or security breaches.
+
+This project simulates a basic FIM system used in enterprise security tools.
+
 
 ## 📌 Overview
 
