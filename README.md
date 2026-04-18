@@ -70,8 +70,8 @@ python main.py
 * 
 ## 📸 Output Example
 
-![Output](screenshots/output.png)
-
+![Output](Screenshots/output.png)
+![Output](Screenshot/Screenshot2026-04-11115508.png)
 
 ## 📌 Use Cases
 
