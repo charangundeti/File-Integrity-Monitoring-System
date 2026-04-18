@@ -67,6 +67,11 @@ python main.py
 * Photo capture on file modification
 * Email alerts with attachments
 * Low resource usage and easy deployment
+* 
+## 📸 Output Example
+
+![Output](screenshots/output.png)
+
 
 ## 📌 Use Cases
 
