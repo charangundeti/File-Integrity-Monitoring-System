@@ -75,11 +75,11 @@ python main.py
 * Support forensic investigations
 * Improve system accountability
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
-* AI-based anomaly detection
-* Cloud integration
-* Web dashboard for monitoring
+* Integration with SIEM tools
+* Real-time dashboard for monitoring
+* Advanced anomaly detection using AI
 
 ## 👨‍💻 Author
 
