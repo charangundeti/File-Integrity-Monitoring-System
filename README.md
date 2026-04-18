@@ -71,7 +71,11 @@ python main.py
 ## 📸 Output Example
 
 ![Output](Screenshot/output.png)
-![Output](Screenshot/Screenshot2026-04-11115508.png)
+![Output](Screenshot/output1.png)
+![Output](Screenshot/output2.png)
+![Output](Screenshot/output3.png)
+![Output](Screenshot/output4.png)
+![Output](Screenshot/output5.png)
 
 ## 📌 Use Cases
 
